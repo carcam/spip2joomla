@@ -1,0 +1,42 @@
+/*
+*	spip2joomlaadmin.css
+*/
+
+/* Title bars */
+.icon-48-spip2joomla{ 
+        background-image: url(../icon-48-spip2joomla.png); 
+}
+.icon-48-import-articles {
+	background-image: url(../articles.png);
+	line-height:32px;
+}
+.icon-48-import-auteurs {
+	background-image: url(../import-auteurs.png);
+	line-height:32px;
+}
+.icon-48-import-sections {
+	background-image: url(../rubriquesSections.png);
+	line-height:32px;
+}
+.icon-48-import-categories {
+	background-image: url(../rubriquesCategories.png);
+	line-height:32px;
+}
+
+/* Buttons */
+.icon-32-import-auteurs {
+	background-image: url(../buttons/import-auteurs.png);
+	line-height:32px;
+}
+.icon-32-import-articles {
+	background-image: url(../buttons/import-articles.png);
+	line-height:32px;
+}
+.icon-32-import-sections {
+	background-image: url(../buttons/import-sections.png);
+	line-height:32px;
+}
+.icon-32-import-categories {
+	background-image: url(../buttons/import-categories.png);
+	line-height:32px;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<params>
+	   <param name="spip_version" default="2" label="SPIP2JOOMLA_SPIP_VERSION" type="list" description="Select your SPIP version" >
+	   	<option value="2">2.x</option>
+	   	<option value="1.9">1.9.x</option>
+	   </param>
+		<param name="db_name" default="Database" label="SPIP2JOOMLA_DATABASE_NAME" type="text" description="SPIP2JOOMLA_DATABASE_NAME" ></param>
+		<param name="db_host" default="localhost" label="SPIP2JOOMLA_LOCALHOST" type="text" description="SPIP2JOOMLA_LOCALHOST" ></param>		
+		<param name="db_user" label="SPIP2JOOMLA_DATABASE_USER" default="USER" type="text" />
+		<param name="db_pass" label="SPIP2JOOMLA_DATABASE_PASS" type="password" />
+		<param name="db_prefix" default="spip_" label="SPIP2JOOMLA_DATABASE_PREFIX" type="text" />
+		<param type="spacer" />
+		<param name="spip_external_glossary" label="SPIP2JOOMLA_SPIP_EXTERNAL_GLOSSARY" type="text" description="SPIP_EXTERNAL_GLOSSARY_DESCRIPTION" />									
+		<param type="spacer" />
+		<param name="spip_directory" label="SPIP2JOOMLA_SPIP_DIRECTORY" type="text" description="Write the path from Joomla root to your SPIP directory"/>
+		<param name="images_way" default="2" label="SPIP2JOOMLA_IMAGES_WAY" type="list" description="Select your preferred way of inserting images into the articles" >
+	   	<option value="1">Simple Image Gallery of Joomlaworks.gr way </option>
+	   	<option value="0">HTML way</option>
+	   </param>
+		<param type="spacer" />
+		<param name="spip_group" label="SPIP2JOOMLA_SPIP_AUTHOR_GROUP" description="Select the joomla user group which should be set for the next spip's authors import" type="sql" default="19" query="SELECT id,name FROM `#__core_acl_aro_groups` WHERE id not in (17,28,29,30)" key_field="id" value_field="name"/>			
+	</params>
+</config>

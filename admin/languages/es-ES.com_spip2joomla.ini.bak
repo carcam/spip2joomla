@@ -1,0 +1,59 @@
+# $Id: es-ES.com_spip2joomla.ini 110 2009-01-04 01:09:47
+# Autor : Carlos M. Cámara Mora
+# URL: www.gnumla.com
+# Copyright 2009
+# License GPL 2.0 or higher
+# Note : 
+COM_SPIP2JOOMLA=Spip2Joomla
+ALL USERS WERE CORRECTLY IMPORTED=Todos los usuarios se han importado correctamente
+ERROR SAVING ONE OR MORE USERS=Hubo un error al guardar uno o más usuarios
+REG_COMPLETE=Registro Completo
+ERROR SAVING USER=Error al guardar el usuario
+IMPORTING SECTIONS SUCCESS!!=¡¡Se han importado las secciones correctamente!!
+ERROR IMPORTING SECTIONS=Hubo un error al importar las secciones
+IMPORTING CATEGORIES SUCCESS!!=¡¡Se han importado las categorías correctamente!!
+ERROR IMPORTING CATEGORIES=Hubo un error al importar las categorías
+SPIP 2 JOOMLA ARTICLE MANAGER=Administrador de artículos Spip 2 Joomla
+IMPORT ARTICLES=Importar Artículos
+CONTROL PANEL=Panel de Control
+SPIP2JOOMLA_AUTEURS=Autores
+SPIP2JOOMLA_RUBRIQUES= Secciones SPIP
+SPIP2JOOMLA_SUBRUBRIQUES=Subsecciones SPIP
+SPIP2JOOMLA_ARTICLES=Artículos
+SPIP2JOOMLA_DOCUMENTS=Documentos
+SPIP 2 JOOMLA USER MANAGER=Administrador de usuarios Spip 2 Joomla
+IMPORT AUTHORS=Importar Autores
+SPIP 2 JOOMLA ARTICLE PREVIEW=Spip 2 Joomla Vista Previa del Artículo
+SPIP 2 JOOMLA SECTION MANAGER=Spip 2 Joomla Administrador de Secciones
+IMPORT SECTIONS=Importar Secciones
+SPIP 2 JOOMLA CONTROL PANEL=Spip 2 Joomla Panel de Control
+SPIP 2 JOOMLA CATEGORY MANAGER=Spip 2 Joomla Administrador de Categorías
+IMPORT CATEGORIES=Importar Categorías
+ID_ARTICLE=Id_article
+SURTITRE=Antetítulo
+TITRE=Título
+SOUSTITRE=Subtítulo
+ID_RUBRIQUE=Id_rubrique
+DESCRIPTIF=Descripción
+DATE=Fecha
+ID=Id
+USERNAME=Nombre de usuario
+EMAIL=Email
+NAME=Nombre
+PASSWORD=Contraseña
+SORRY, BUT THIS FUNCTION IS NOT AVAILABLE IN THIS VERSION=Lo sentimos, pero esta funcion no está disponible en esta versión
+BACK=Volver
+AUTEUR=autor
+ALIAS=alias
+TEXTE=texto
+ID_SECTEUR=Id_secteur
+CATEGORIES=Categorías
+SPIP2JOOMLA_DATABASE_NAME=Nombre de la base de datos SPIP
+SPIP2JOOMLA_LOCALHOST=Host de la base de datos SPIP
+SPIP2JOOMLA_DATABASE_USER=Usuario de la base de datos SPIP
+SPIP2JOOMLA_DATABASE_PASS=Contraseña de la base de datos SPIP
+SPIP2JOOMLA_DATABASE_PREFIX=Prefijo de las tablas de la base de datos SPIP
+SPIP2JOOMLA_SPIP_EXTERNAL_GLOSSARY=Glosario Externo de SPIP
+SPIP2JOOMLA_SPIP_DIRECTORY=Nombre del directorio donde se encuentra SPIP (Aun no funciona)
+SPIP2JOOMLA_SPIP_AUTHOR_GROUP=Grupo por defecto para los usuarios SPIP
+SELECT THE JOOMLA USER GROUP WHICH SHOULD BE SET FOR THE NEXT SPIP'S AUTHORS IMPORT=Elija el grupo de usuarios Joomla! del que formarán parte los usuarios SPIP que importe.

@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-	<params>
-	   <param name="spip_version" default="2" label="SPIP2JOOMLA_SPIP_VERSION" type="list" description="Select your SPIP version" >
+	<fieldset name="greetings"
+		label="COM_SPIP2JOOMLA_CONFIG_SETTINGS_LABEL"
+		description="COM_SPIP2JOOMLA_CONFIG_SETTINGS_DESC">
+	   <field name="spip_version" default="2" label="COM_SPIP2JOOMLA_SPIP_VERSION_LABEL" type="list" description="COM_SPIP2JOOMLA_SPIP_VERSION_DESC" >
 	   	<option value="2">2.x</option>
 	   	<option value="1.9">1.9.x</option>
-	   </param>
-		<param name="db_name" default="Database" label="SPIP2JOOMLA_DATABASE_NAME" type="text" description="SPIP2JOOMLA_DATABASE_NAME" ></param>
-		<param name="db_host" default="localhost" label="SPIP2JOOMLA_LOCALHOST" type="text" description="SPIP2JOOMLA_LOCALHOST" ></param>		
-		<param name="db_user" label="SPIP2JOOMLA_DATABASE_USER" default="USER" type="text" />
-		<param name="db_pass" label="SPIP2JOOMLA_DATABASE_PASS" type="password" />
-		<param name="db_prefix" default="spip_" label="SPIP2JOOMLA_DATABASE_PREFIX" type="text" />
-		<param type="spacer" />
-		<param name="spip_external_glossary" label="SPIP2JOOMLA_SPIP_EXTERNAL_GLOSSARY" type="text" description="SPIP_EXTERNAL_GLOSSARY_DESCRIPTION" />									
-		<param type="spacer" />
-		<param name="spip_directory" label="SPIP2JOOMLA_SPIP_DIRECTORY" type="text" description="Write the path from Joomla root to your SPIP directory"/>
-		<param name="images_way" default="2" label="SPIP2JOOMLA_IMAGES_WAY" type="list" description="Select your preferred way of inserting images into the articles" >
-	   	<option value="1">Simple Image Gallery of Joomlaworks.gr way </option>
-	   	<option value="0">HTML way</option>
-	   </param>
-		<param type="spacer" />
-		<param name="spip_group" label="SPIP2JOOMLA_SPIP_AUTHOR_GROUP" description="Select the joomla user group which should be set for the next spip's authors import" type="sql" default="19" query="SELECT id,name FROM `#__core_acl_aro_groups` WHERE id not in (17,28,29,30)" key_field="id" value_field="name"/>			
-	</params>
+	   </field>
+		<field name="db_name" default="Database" label="COM_SPIP2JOOMLA_DATABASE_NAME" type="text" description="COM_SPIP2JOOMLA_DATABASE_NAME" ></field>
+		<field name="db_host" default="localhost" label="COM_SPIP2JOOMLA_LOCALHOST" type="text" description="COM_SPIP2JOOMLA_LOCALHOST" ></field>		
+		<field name="db_user" label="COM_SPIP2JOOMLA_DATABASE_USER" default="" type="text" />
+		<field name="db_pass" label="COM_SPIP2JOOMLA_DATABASE_PASS" type="password" />
+		<field name="db_prefix" default="spip_" label="COM_SPIP2JOOMLA_DATABASE_PREFIX" type="text" />
+		<field type="spacer" />
+		<field name="spip_external_glossary" label="COM_SPIP2JOOMLA_SPIP_EXTERNAL_GLOSSARY" type="text" description="COM_SPIP2JOOMLA_SPIP_EXTERNAL_GLOSSARY_DESCRIPTION" />									
+		<field type="spacer" />
+		<field name="spip_directory" label="COM_SPIP2JOOMLA_SPIP_DIRECTORY_NOT_WORKING_LABEL" type="text" description="COM_SPIP2JOOMLA_SPIP_DIRECTORY_NOT_WORKING_desc"/>
+		<field name="images_way" default="2" label="COM_SPIP2JOOMLA_IMAGE_GALLERIES_LABEL" type="list" description="COM_SPIP2JOOMLA_IMAGE_GALLERIES_DESC" >
+	   	<option value="1">COM_SPIP2JOOMLA_IMAGE_GALLERIES_OPT_SIG</option>
+	   	<option value="0">COM_SPIP2JOOMLA_IMAGE_GALLERIES_OPT_HTML</option>
+	   </field>
+		<field type="spacer" />
+		
+                                    <field name="spip_group" type="usergroup" default="" label="COM_SPIP2JOOMLA_AUTHOR_GROUP_LABEL" description="COM_SPIP2JOOMLA_AUTHOR_GROUP_DESC"  />
+	</fieldset>
 </config>

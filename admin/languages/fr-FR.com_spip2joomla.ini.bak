@@ -1,0 +1,62 @@
+# $Id: fr-FR.com_spip2joomla.ini 110 2009-01-04 01:09:47
+# Auteur : 
+# URL: 
+# Copyright 2009
+# License GPL 2.0 or higher
+# Note : 
+COM_SPIP2JOOMLA=SPIP2Joomla
+##Preferences
+ALL USERS WERE CORRECTLY IMPORTED=Tous les utilisateurs ont été correctement importés
+ERROR SAVING ONE OR MORE USERS=Erreur lors de la sauvegarde d'un ou plusieurs utilisateurs
+REG_COMPLETE=REG_COMPLETE
+ERROR SAVING USER=Erreur lors de la sauvegarde de l'utilisateur
+IMPORTING SECTIONS SUCCESS!!=Import des sections réussie!
+##Component
+ERROR IMPORTING SECTIONS=Erreur lors de l'import des sections
+IMPORTING CATEGORIES SUCCESS!!=Import des catégories réussie!
+ERROR IMPORTING CATEGORIES=Erreur lors de l'import des catégories
+SPIP 2 JOOMLA ARTICLE MANAGER=SPIP2Joomla : <small><small>[ Import des Articles Spip ==> Contenus Joomla ]</small></small>
+IMPORT ARTICLES=Importer articles
+CONTROL PANEL=Panneau de controle
+SPIP2JOOMLA_AUTEURS=Auteurs
+SPIP2JOOMLA_RUBRIQUES=Rubriques
+SPIP2JOOMLA_SUBRUBRIQUES=Sous-rubriques
+SPIP2JOOMLA_ARTICLES=Articles
+SPIP2JOOMLA_DOCUMENTS=Documents
+SPIP 2 JOOMLA USER MANAGER=SPIP2Joomla : <small><small>[ Import des Auteurs Spip ==> Utilisateurs Joomla ]</small></small>
+IMPORT AUTHORS=Importer Auteurs
+SPIP 2 JOOMLA ARTICLE PREVIEW=SPIP2Joomla : <small><small>[ Prévisualisation Article ]</small></small>
+SPIP 2 JOOMLA SECTION MANAGER=SPIP2Joomla : <small><small>[Import des Rubriques Spip ==> Sections et Categories Joomla ]</small></small>
+IMPORT SECTIONS=Importer Rubriques
+SPIP 2 JOOMLA DOCUMENT MANAGER=SPIP2Joomla : <small><small>[Import des Documents Spip ==> Documents Joomla ]</small></small>
+SPIP 2 JOOMLA CONTROL PANEL=SPIP2Joomla : <small><small>[ Panneau de controle ]</small></small>
+SPIP 2 JOOMLA CATEGORY MANAGER=Spip 2 Joomla Category Manager
+IMPORT CATEGORIES=Importer Sous-Rubriques
+ID_ARTICLE=ID article
+SURTITRE=Sur-titre
+TITRE=Titre
+SOUSTITRE=Sous-titre
+ID_RUBRIQUE=ID rubrique
+DESCRIPTIF=Description
+DATE=Date
+ID=ID
+USERNAME=Identifiant
+EMAIL=Email
+NAME=Nom
+PASSWORD=Mot de passe
+SORRY, BUT THIS FUNCTION IS NOT AVAILABLE IN THIS VERSION=Désolé, cette fonction n'est pas disponible dans cette version.
+BACK=Retour
+AUTEUR=auteur
+ALIAS=alias
+TEXTE=texte
+ID_SECTEUR=ID secteur
+CATEGORIES=Catégories
+SPIP2JOOMLA_DATABASE_NAME=Nom BD SPIP
+SPIP2JOOMLA_LOCALHOST=Serveur de BD SPIP
+SPIP2JOOMLA_DATABASE_USER=Identifiant BD SPIP
+SPIP2JOOMLA_DATABASE_PASS=Mot de passe BD SPIP
+SPIP2JOOMLA_DATABASE_PREFIX=Préfixe des tables SPIP
+SPIP2JOOMLA_SPIP_EXTERNAL_GLOSSARY=Glossaire externe SPIP
+SPIP2JOOMLA_SPIP_DIRECTORY=Nom du répertoire SPIP (pas encore fonctionnel)
+SPIP2JOOMLA_SPIP_AUTHOR_GROUP=Groupe de destination
+SELECT THE JOOMLA USER GROUP WHICH SHOULD BE SET FOR THE NEXT SPIP'S AUTHORS IMPORT=Sélectionner le groupe d'utilisateur Joomla dans lequel vous souhaitez affecter les auteurs SPIP
